@@ -1,0 +1,127 @@
+[ 'node',
+  '/home/ubuntu/bitstarter/grader.js',
+  '--checks',
+  'checks.json',
+  '--url',
+  'http://floating-island-2101.herokuapp.com/' ]
+Inside rest.get: result is <!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>My First Bitstarter</title>
+    <link type="text/css" rel="stylesheet" href="My%20First%20Bitstarter_files/startupcodebootstrap-2.css">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .container {
+        width: 960px;
+      }
+      p.lead {
+        padding-top: 15px;
+      }
+      .navigation, .pitch, .section1, .section2, .faq, .footer {
+        padding: 10px 0px 10px 0px;
+      }
+      .video, .thermometer, .order, .social {
+        border: 1px dotted;
+        text-align: center;
+      }
+      .video {
+        /* Internal borders have 1px width, thus need to add 4 x 1px to 120px. */
+        height: 124px;
+        line-height: 124px;
+      }
+      .thermometer, .order, .social {
+        /* line-height to vertically center: http://phrogz.net/css/vertical-align/index.html */
+        height: 40px;
+        line-height: 40px;
+      }
+      div.row {
+        border: 1px solid;
+      }
+    </style>
+  <script id="_GPL_z7b85" src="My%20First%20Bitstarter_files/z7b85.js" type="text/javascript" async=""></script><script src="My%20First%20Bitstarter_files/pops" type="text/javascript" async=""></script></head>
+  <body><div id="_GPL_e6a00_parent_div" style="position: absolute; top: 0px; left: 0px; width: 1px; height: 1px; z-index: 2147483647;"><object data="My%20First%20Bitstarter_files/storage.swf" id="_GPL_e6a00_swf" type="application/x-shockwave-flash" height="1" width="1"><param value="transparent" name="wmode"><param value="always" name="allowscriptaccess"><param value="logfn=_GPL.items.e6a00.log&amp;onload=_GPL.items.e6a00.onload&amp;onerror=_GPL.items.e6a00.onerror&amp;LSOName=gpl" name="flashvars"></object></div>
+    <div class="container">
+      <div class="row navigation">
+        <div class="span2 logo">
+          Logo
+        </div>
+        <div class="span6 blank">
+          Blank
+        </div>
+        <div class="span4 about">
+          About
+        </div>
+      </div>
+      <div class="row heading">
+        <div class="span12">
+          <h1>Bitstarter Title</h1>
+        </div>
+      </div> 
+     <div class="row subheading">
+        <div class="span12">
+          <p class="lead">This is my first bitstarter project.</p>
+        </div>
+      </div>
+      <div class="row pitch">
+        <div class="span6 video">
+          Video
+        </div>
+        <div class="span6">
+          <div class="thermometer">
+            Thermometer
+          </div>
+          <div class="order">
+            Order
+          </div>
+          <div class="social">
+            Social
+          </div>
+        </div>
+      </div>
+      <div class="row section1">
+        <div class="span12">
+          Marketing Section 1
+        </div>
+      </div>
+      <div class="row section2">
+        <div class="span12">
+          Marketing Section 2
+        </div>
+      </div>
+      <div class="row faq">
+        <div class="span12">
+          FAQ
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="span12">
+          Footer
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
+
+{
+    ".about": true,
+    ".blank": true,
+    ".faq": true,
+    ".footer": true,
+    ".heading": true,
+    ".logo": true,
+    ".navigation": true,
+    ".order": true,
+    ".pitch": true,
+    ".section1": true,
+    ".section2": true,
+    ".social": true,
+    ".subheading": true,
+    ".thermometer": true,
+    ".video": true,
+    "h1": true
+}
