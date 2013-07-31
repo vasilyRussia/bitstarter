@@ -61,19 +61,23 @@
       }
 
 /* Video and actions
-
+/* margins order: top, right, bottom, left */
       .pitch {
-        padding: 2.5% 0%;
+        padding: 2.5% 0% 0% 0%;
       }
       .order {
-        padding: 2% 0%;
+              padding: 0% 0% 2% 0%;
       }
       .actions {
         background-color: #343434;
-        padding: 3% 0%;
+        padding: 0% 0% 0% 0%;
       }
       .video, .thermometer, .order, .social, .statistics {
         text-align: center;
+        
+      }
+      .thermometer {
+        padding: 0% 0% 0% 0%
       }
       .statistics h3, .statistics p {
         color: white;
@@ -85,7 +89,8 @@
         text-align: justify;
       }
       .asset {
-        padding: 2.5% 0%;
+         
+        padding: 2.5% 0% 0% 0%;
       }
       .footer {
         color: #cccccc;
@@ -109,7 +114,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Bitstarter</a>
+          <a class="brand" href="#">Mendel</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Logo</a></li>
@@ -127,19 +132,20 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Bitstarter Title</h1>
+          <h1>Mendel Project</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
-        <div class="span12">
+        <div class="span8 offset2">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">This is my first bitstarter project.</p>
+          <p class="lead">A dedicated website to bring together clinical
+	  researchers and natural medicine practitioners</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="./het.jpg">
+          <img class="img-polaroid" src="./IdeaMedicalLowRes.jpg">
        </div>
 
 	<div class="span5 actions">
@@ -150,17 +156,17 @@
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>1000</h3> <p>backers</p>
+                <h3>0</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$0</h3> <p>of $50,000</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3>10</h3> <p>days left</p>
+                <h3>90</h3> <p>days left</p>
                 </div>
               </div>
             </div>
@@ -169,15 +175,17 @@
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%;"></div>
+              <div class="bar bar-success" style="width: 80%;"></div>
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
-          <div class="span6 offset3 order">
+
+          <div class="span12 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <button class="btn btn-success btn-large">Preorder</button>
+            <button class="btn btn-success btn-large">Contribute to project development</button>
           </div>
+
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
@@ -188,21 +196,21 @@
       </div>
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="./chess.gif">
+          <img class="img-polaroid" src="./HealthCosts.jpg" style="float:left;">
         </div>
         <div class="span5 copy">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            When we think about traditional health care today, we mostly 
+	    associate it with drugs and surgery. Without doubt, medicine
+	    has had considerable success in treating bacterial infections,
+	    viruses, and developed sound apparatus of emergency procedures.
+	    However, most chronic maladies remain de facto incurable. Drugs
+	    often surpress symptoms rather than eliminate the cause of 
+	    desease producing numerous side effects along the way. Removing 
+	    parts of one's body is not a long-term answer either especially
+	    if one aspires to live life to the fullest. Worst of all, the 
+	    costs of traditional healthcare are mounting quickly, with fewer 
+	    than ever people able to afford it. 
           </p>
         </div>
       </div>
@@ -210,21 +218,31 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            Natural medicine has been in use for thousands of years. It is
+	    holistic as it always looks for the root cause of the problem.
+	    It does not usually have side effects, is extremely low-cost and 
+	    non-invasive. Unfortunately, being used by millions of people 
+	    worldwide, natural medicine remains a frontier area of medical
+	    research. 
+
+	    In Mendel we believe that this situation has to change. We decided
+	    to build a dedicated online platform to bring together open-minded
+	    medical practitioners and naturopaths to bring new momentum into
+	    natural medicine clinical research. Naturopaths often practice
+	    empirically based on observation, common sense, and esoteric knowledge. By using this website they could form groups to fund 
+	    specific clinical reseach related to their area of expertise.
+	    Results of such research could place natural medicine practice
+	    on solid scientific foundation and would not be biased by 
+	    pharmaceutical companies. Many alternative medicine companies 
+	    and practitioners could benefit from enhanced credibility. 
+	    Medical researchers, on the other hand, could 
+	    improve funding access for out-of-mainstream 
+	    projects and acquire better understanding as to which factors 
+	    would be critical to assess in the respective clinical trial.
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="./chess.gif">
+          <img class="img-polaroid" src="./MindBodySoul.jpg">
         </div>
       </div>
 
@@ -236,12 +254,14 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                    Which services does this website provide?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                    We have a crowdfunding platform for natural medicine 
+		    research projects and a forum to bring together traditional
+		    clinical research teams and naturopahts.
                   </div>
                 </div>
               </div>
@@ -249,12 +269,30 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
+                    What does a contributor get?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+                    A contributor obtains up-to-date information on the 
+		    progress of a study, copies of official documents from
+		    the study, and the final research report.
+                  </div>
+                </div>
+              </div>
+	      <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion2" href="#collapseThree">
+                    What is the interest of a medical researcher?
+                  </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    A medical researcher or a medical research team can
+		    benefit by covering all or part of the required funding through crowd donations. The research topic or
+		    trial could also be refined based on feedback of 
+		    practising naturopaths.
                   </div>
                 </div>
               </div>
