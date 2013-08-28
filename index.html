@@ -21,10 +21,20 @@
          padding-top: 60px;
         }
        .linediv-l {
-         border-right: 1px white solid;
-        }
+         border-right: 2px white solid;
+         border-left: 2px white solid;
+         border-bottom: 2px white solid;
+         }
+       .linediv-c {
+         border-bottom: 2px white solid;
+         border-left: 2px white solid;
+         border-right: 2px white solid; 
+         margin-bottom: 10px;
+       }
        .linediv-r {
-         border-left: 1px white solid;
+         border-left: 2px white solid;
+         border-right: 2px white solid;
+         border-bottom: 2px white solid;
        }
       }
 
@@ -35,10 +45,10 @@
          padding: 2.5% 10%;
        }
        .linediv-l {
-         border-bottom: 1px white solid;
+         border-bottom: 0px red solid;
        }
        .linediv-r {
-         border-top: 1px white solid;
+         border-top: 0px white solid;
        }
       }
 
@@ -58,12 +68,15 @@
       p {
         font-size: 18px;
         line-height: 24px;
+        color: blue; 
       }
 
 /* Video and actions
 /* margins order: top, right, bottom, left */
       .pitch {
         padding: 2.5% 0% 0% 0%;
+        
+        
       }
       .order {
               padding: 0% 0% 2% 0%;
@@ -80,7 +93,7 @@
         padding: 0% 0% 0% 0%
       }
       .statistics h3, .statistics p {
-        color: white;
+        color: red;
       }
       /* Marketing Copy and Footer */
       .copy {
@@ -145,12 +158,13 @@
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="./IdeaMedicalLowRes.jpg">
-       </div>
+          <img class="img-polaroid" src="./IdeaMedicalLowRes.jpg" alt="Evrika" /img>
+    </div>
 
 	<div class="span5 actions">
+	  <div class="row-fluid">
           <div class="span8 offset2">
-            <div class="statistics">
+            <div class="row-fluid statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
@@ -171,6 +185,8 @@
               </div>
             </div>
           </div>
+	  </div>
+	  <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
@@ -179,24 +195,27 @@
               <div class="bar bar-warning" style="width: 40%;"></div>
             </div>
           </div>
-
+	  </div>
+	  <div class="row-fluid">
           <div class="span12 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Contribute to project development</button>
           </div>
-
+	  </div>
+	  <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+	  </div>
         </div>
       </div>
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="./HealthCosts.jpg" style="float:left;">
+          <img class="img-polaroid" src="./HealthCosts.jpg" alt="Health costs" style="float:left;">
         </div>
         <div class="span5 copy">
           <p>
@@ -242,7 +261,7 @@
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="./MindBodySoul.jpg">
+          <img class="img-polaroid" src="./MindBodySoul.jpg" alt="Holistic medicine">
         </div>
       </div>
 
